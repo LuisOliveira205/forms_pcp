@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formulario", "formulario\formulario.csproj", "{D2C63417-12D1-45E8-AA8E-ECDA41722936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipoAcesso", "TipoAcesso\TipoAcesso.csproj", "{2263FFD7-CADA-4CF9-AB6F-950323410224}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2C63417-12D1-45E8-AA8E-ECDA41722936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C63417-12D1-45E8-AA8E-ECDA41722936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C63417-12D1-45E8-AA8E-ECDA41722936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C63417-12D1-45E8-AA8E-ECDA41722936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2263FFD7-CADA-4CF9-AB6F-950323410224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2263FFD7-CADA-4CF9-AB6F-950323410224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2263FFD7-CADA-4CF9-AB6F-950323410224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2263FFD7-CADA-4CF9-AB6F-950323410224}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFA020D9-A1EC-4A9E-853F-53ADD9F83A64}
+	EndGlobalSection
+EndGlobal
