@@ -55,5 +55,17 @@ namespace Forms
             objetivoBox.Size = new Size(300, 100);
             this.Controls.Add(objetivoBox);
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
+        }
     }
 }

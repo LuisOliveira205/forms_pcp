@@ -10,21 +10,18 @@ using System.Windows.Forms;
 
 namespace Forms
 {
-    public partial class FormOperacional : Form
+    public partial class Form3 : Form
     {
-        public FormOperacional()
+        public Form3()
         {
             InitializeComponent();
         }
 
-        private void FormOperacional_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -32,6 +29,15 @@ namespace Forms
             Form2 form2 = new Form2();
             form2.Show();
             this.Hide();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }

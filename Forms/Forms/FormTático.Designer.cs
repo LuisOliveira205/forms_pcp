@@ -50,6 +50,7 @@
             label10 = new Label();
             textBox3 = new TextBox();
             label11 = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -75,9 +76,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(12, 93);
             label2.Name = "label2";
-            label2.Size = new Size(99, 15);
+            label2.Size = new Size(98, 15);
             label2.TabIndex = 2;
-            label2.Text = "Nome Do Projeto";
+            label2.Text = "Nome do Projeto";
             // 
             // label3
             // 
@@ -90,7 +91,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(362, 351);
+            button1.Location = new Point(413, 354);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 4;
@@ -104,7 +105,6 @@
             richTextBox1.Size = new Size(100, 96);
             richTextBox1.TabIndex = 6;
             richTextBox1.Text = "";
-           
             // 
             // textBox2
             // 
@@ -137,7 +137,8 @@
             label5.Name = "label5";
             label5.Size = new Size(83, 15);
             label5.TabIndex = 10;
-            label5.Text = "Depertamento";
+            label5.Text = "Departamento";
+            label5.Click += label5_Click;
             // 
             // dateTimePicker1
             // 
@@ -167,7 +168,7 @@
             label7.AutoSize = true;
             label7.Location = new Point(228, 262);
             label7.Name = "label7";
-            label7.Size = new Size(94, 15);
+            label7.Size = new Size(93, 15);
             label7.TabIndex = 14;
             label7.Text = "Data de Término";
             // 
@@ -238,11 +239,22 @@
             label11.TabIndex = 22;
             label11.Text = "Relacionamento";
             // 
+            // button2
+            // 
+            button2.Location = new Point(274, 354);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 23;
+            button2.Text = "Voltar";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // FormTático
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(label11);
             Controls.Add(textBox3);
             Controls.Add(label10);
@@ -295,5 +307,6 @@
         private Label label10;
         private TextBox textBox3;
         private Label label11;
+        private Button button2;
     }
 }

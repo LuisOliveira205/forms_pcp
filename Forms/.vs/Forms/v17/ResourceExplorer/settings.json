@@ -1,16 +1,1 @@
-{
-  "ShowEmptyProjects": false,
-  "SelectedGroups": [],
-  "ExpandedProjects": [],
-  "EnableSpellChecker": true,
-  "ColumnOrder": [
-    "name",
-    "type",
-    "neutral-value",
-    "neutral-comment"
-  ],
-  "VisibleColumnKeys": [
-    "name",
-    "neutral-value"
-  ]
-}
+{"ShowEmptyProjects":false,"CustomColumnOrderings":{},"ShowValidationErrors":true,"SelectedResourceGroupsByProjectFilePath":{"C:\\Users\\Aluno\\Desktop\\pcp-forms\\forms_pcp\\Forms\\Forms\\Forms.csproj":["C:\\Users\\Aluno\\Desktop\\pcp-forms\\forms_pcp\\Forms\\Forms\\Form1.resx"]},"VisibleColumnKeys":["name","neutral-value"]}
